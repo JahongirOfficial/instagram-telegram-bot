@@ -1,0 +1,18 @@
+{
+  "name": "instagram-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to extract Instagram video info",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}

@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: instagram-api
+    env: node
+    buildCommand: npm install
+    startCommand: node bot.js
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: API_PORT
+        value: 10000
